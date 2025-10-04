@@ -29,7 +29,7 @@ Download and install Miniconda from https://docs.conda.io/en/latest/miniconda.ht
 3. Create a new Conda environment:
 
 ```bash
-    conda create -n vehicle_dashboard python=3.4 -y
+    conda create -n personal_expense_tracker python=3.4 -y
     
 ```
 4. Activate the Conda environment:
