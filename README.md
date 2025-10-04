@@ -18,8 +18,8 @@ PostgreSQL database
 1. Clone this repository:
 
 ```bash
-    git clone https://github.com/Truptimayee2000/Vehicle-Registration.git
-    cd Vehicle-Registration
+    git clone https://github.com/Truptimayee2000/Personal-Expense-Tracker.git
+    cd Personal-Expense-Tracker
 ```
 
 2. Install Miniconda (if not already installed):
@@ -34,7 +34,7 @@ Download and install Miniconda from https://docs.conda.io/en/latest/miniconda.ht
 ```
 4. Activate the Conda environment:
 ```bash
-    conda activate vehicle_dashboard
+    conda activate personal_expense_tracker
 ```
 5. Install required packages:
 
@@ -48,10 +48,11 @@ Download and install Miniconda from https://docs.conda.io/en/latest/miniconda.ht
     cd backend
     flask run
 ```
-8. Frontend (Streamlit)
+8. Frontend (React)
 ```bash
     cd frontend
-    streamlit run dashboard.py       
+    npm install
+    npm start       
 ```
 
 
