@@ -1,0 +1,104 @@
+Short Documentation: Personal Expense Tracker
+1. Assumptions
+
+Single-user system; no authentication required.
+
+Amounts are numeric values only.
+
+Date format is YYYY-MM-DD.
+
+Categories are pre-defined (e.g., Food, Travel, Bills).
+
+Frontend interacts with backend via REST API.
+
+2. Design
+
+Frontend: React.js
+
+Components: ExpenseForm, ExpenseTable, FilterPanel.
+
+Communicates with Flask backend using fetch or axios.
+
+Backend: Flask + SQLAlchemy
+
+REST API routes:
+
+GET /api/expenses – fetch all expenses
+
+POST /api/expenses – add new expense
+
+PUT /api/expenses/<id> – update expense
+
+DELETE /api/expenses/<id> – delete expense
+
+Database: PostgreSQL or SQLite.
+
+Data Flow: User action → Frontend → API → Backend → Database → Response → Frontend updates UI.
+
+3. Sample Inputs / Outputs
+
+Add Expense (POST /api/expenses):
+
+{
+  "amount": 500,
+  "date": "2025-10-05",
+  "category": "Food",
+  "note": "Lunch at cafe"
+}
+
+
+Output:
+
+{
+  "id": 1,
+  "amount": 500,
+  "date": "2025-10-05",
+  "category": "Food",
+  "note": "Lunch at cafe"
+}
+
+
+Get All Expenses (GET /api/expenses):
+
+[
+  {
+    "id": 1,
+    "amount": 500,
+    "date": "2025-10-05",
+    "category": "Food",
+    "note": "Lunch at cafe"
+  },
+  {
+    "id": 2,
+    "amount": 1200,
+    "date": "2025-10-04",
+    "category": "Travel",
+    "note": "Taxi fare"
+  }
+]
+
+
+Update Expense (PUT /api/expenses/1):
+
+{
+  "amount": 550,
+  "note": "Lunch with colleague"
+}
+
+
+Output:
+
+{
+  "id": 1,
+  "amount": 550,
+  "date": "2025-10-05",
+  "category": "Food",
+  "note": "Lunch with colleague"
+}
+
+
+Delete Expense (DELETE /api/expenses/1):
+
+{
+  "message": "Expense deleted successfully"
+}
