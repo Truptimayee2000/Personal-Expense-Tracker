@@ -1,0 +1,86 @@
+[
+  {
+    "amount": 250.50,
+    "date": "2025-10-01",
+    "note": "Lunch with friends",
+    "category": "Food",
+    "created_by": "Trupti"
+  },
+  {
+    "amount": 1200.00,
+    "date": "2025-10-02",
+    "note": "Electricity bill",
+    "category": "Bills",
+    "created_by": "Trupti"
+  },
+  {
+    "amount": 450.75,
+    "date": "2025-10-03",
+    "note": "Movie tickets",
+    "category": "Entertainment",
+    "created_by": "Trupti"
+  },
+  {
+    "amount": 1800.00,
+    "date": "2025-10-04",
+    "note": "Groceries for the week",
+    "category": "Food",
+    "created_by": "Trupti"
+  },
+  {
+    "amount": 500.00,
+    "date": "2025-10-05",
+    "note": "Taxi ride",
+    "category": "Travel",
+    "created_by": "Trupti"
+  },
+  {
+    "amount": 300.00,
+    "date": "2025-11-01",
+    "note": "Coffee with colleagues",
+    "category": "Food",
+    "created_by": "Trupti"
+  },
+  {
+    "amount": 900.00,
+    "date": "2025-11-03",
+    "note": "Water bill",
+    "category": "Bills",
+    "created_by": "Trupti"
+  },
+  {
+    "amount": 1500.00,
+    "date": "2025-11-05",
+    "note": "Concert tickets",
+    "category": "Entertainment",
+    "created_by": "Trupti"
+  },
+  {
+    "amount": 2000.00,
+    "date": "2025-12-01",
+    "note": "Monthly groceries",
+    "category": "Food",
+    "created_by": "Trupti"
+  },
+  {
+    "amount": 600.00,
+    "date": "2025-12-02",
+    "note": "Car service",
+    "category": "Travel",
+    "created_by": "Trupti"
+  },
+  {
+    "amount": 1000.00,
+    "date": "2025-12-03",
+    "note": "New shoes",
+    "category": "Shopping",
+    "created_by": "Trupti"
+  },
+  {
+    "amount": 750.00,
+    "date": "2025-12-05",
+    "note": "Dinner with family",
+    "category": "Food",
+    "created_by": "Trupti"
+  }
+]
